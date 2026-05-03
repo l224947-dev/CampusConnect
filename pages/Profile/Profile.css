@@ -1,0 +1,196 @@
+.pf-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 28px 20px 48px;
+}
+
+.pf-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0 0 24px;
+}
+
+.pf-me {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: #fff;
+  border: 1px solid #e8eaed;
+  border-radius: 12px;
+  padding: 20px 24px;
+  margin-bottom: 28px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.pf-me-avatar img {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+}
+
+.pf-me-name {
+  font-size: 20px;
+  margin: 0 0 4px;
+  color: #202124;
+}
+
+.pf-me-email {
+  font-size: 14px;
+  color: #5f6368;
+  margin: 0 0 10px;
+}
+
+.pf-badge {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: #e8f0fe;
+  color: #1967d2;
+}
+
+.pf-error {
+  color: #b91c1c;
+  margin-bottom: 16px;
+}
+
+.pf-section {
+  margin-top: 8px;
+}
+
+.pf-h2 {
+  font-size: 18px;
+  margin: 0 0 16px;
+  color: #202124;
+}
+
+.pf-muted {
+  color: #9aa0a6;
+}
+
+.pf-teacher-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.pf-teacher-card {
+  background: #fff;
+  border: 1px solid #e8eaed;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+.pf-teacher-head {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 18px;
+  background: #f8f9fa;
+  border-bottom: 1px solid #e8eaed;
+}
+
+.pf-teacher-av {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.pf-teacher-name {
+  font-size: 16px;
+  margin: 0 0 2px;
+  color: #202124;
+}
+
+.pf-teacher-email {
+  font-size: 13px;
+  color: #5f6368;
+  margin: 0;
+}
+
+.pf-mini-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  padding: 16px 18px 18px;
+}
+
+.pf-mini-card {
+  border: 1px solid #e8eaed;
+  border-radius: 10px;
+  padding: 12px 14px;
+  background: #fafafa;
+}
+
+.pf-mini-subject {
+  font-weight: 600;
+  font-size: 14px;
+  color: #4f46e5;
+  margin: 0 0 6px;
+}
+
+.pf-mini-time {
+  font-size: 13px;
+  color: #3c4043;
+  margin: 0 0 10px;
+  line-height: 1.4;
+}
+
+.pf-cancel {
+  padding: 6px 12px;
+  font-size: 12px;
+  font-weight: 600;
+  border: 1px solid #fecaca;
+  border-radius: 8px;
+  background: #fff;
+  color: #b91c1c;
+  cursor: pointer;
+}
+
+.pf-cancel:hover:not(:disabled) {
+  background: #fef2f2;
+}
+
+.pf-cancel:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.pf-book-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 14px;
+}
+
+.pf-book-card {
+  background: #fff;
+  border: 1px solid #e8eaed;
+  border-radius: 12px;
+  padding: 16px 18px;
+  border-top: 4px solid #4f46e5;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.pf-book-student {
+  font-weight: 600;
+  font-size: 15px;
+  margin: 0 0 8px;
+  color: #202124;
+}
+
+.pf-book-sub {
+  font-size: 14px;
+  color: #4f46e5;
+  margin: 0 0 6px;
+  font-weight: 500;
+}
+
+.pf-book-time {
+  font-size: 13px;
+  color: #5f6368;
+  margin: 0;
+  line-height: 1.4;
+}

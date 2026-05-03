@@ -1,0 +1,137 @@
+.dashboard {
+  padding: 30px;
+}
+
+.dashboard--classroom {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.subtitle {
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.gc-header .title {
+  margin-bottom: 8px;
+}
+
+.gc-header .subtitle {
+  margin-bottom: 24px;
+}
+
+.gc-error {
+  color: #b91c1c;
+  margin-bottom: 16px;
+}
+
+.gc-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.gc-card {
+  position: relative;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  text-align: left;
+  transition: box-shadow 0.2s, transform 0.2s;
+  border: 1px solid #e8eaed;
+}
+
+.gc-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  transform: translateY(-2px);
+}
+
+.gc-card:focus-visible {
+  outline: 2px solid #4f46e5;
+  outline-offset: 2px;
+}
+
+.gc-card-accent {
+  height: 6px;
+  background: linear-gradient(90deg, #4f46e5, #7c3aed);
+}
+
+.gc-card-body {
+  padding: 18px 20px 20px;
+}
+
+.gc-card-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #202124;
+  margin: 0 0 8px;
+  line-height: 1.3;
+}
+
+.gc-card-teacher {
+  font-size: 14px;
+  color: #5f6368;
+  margin: 0 0 4px;
+}
+
+.gc-card-email {
+  font-size: 13px;
+  color: #80868b;
+  margin: 0 0 14px;
+  word-break: break-all;
+}
+
+.gc-card-cta {
+  font-size: 14px;
+  font-weight: 600;
+  color: #4f46e5;
+}
+
+/* legacy grid (if reused elsewhere) */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card button {
+  margin-top: 10px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 10px;
+  background: #4f46e5;
+  color: white;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background: #3730a3;
+}
