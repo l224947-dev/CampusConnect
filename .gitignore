@@ -1,4 +1,22 @@
+# Dependencies & build
 node_modules
 dist
+
+# Secrets
 .env
+.env.local
+.env.*.local
+
+# OS & editor
 .DS_Store
+Thumbs.db
+*.log
+.idea
+.vscode/*
+!.vscode/extensions.json
+
+# Local docs / binaries (keep repo source-only)
+*.docx
+
+# Test / coverage
+coverage
